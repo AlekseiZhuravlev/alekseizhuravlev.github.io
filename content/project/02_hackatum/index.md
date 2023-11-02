@@ -12,7 +12,11 @@ image:
 # url_code: 'https://github.com/AlekseiZhuravlev/MotionMixerConv/'
 # url_pdf: 'https://drive.google.com/file/d/1uFtFNbG0R6z7cEVWbDfxI2-yMyg_wJ5K/view?usp=sharing'
 # url_slides: ''
-url_video: 'https://devpost.com/software/abiogenesis'
+
+links:
+- name: Project page
+  url: https://devpost.com/software/abiogenesis
+# url_video: 'https://devpost.com/software/abiogenesis'
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
