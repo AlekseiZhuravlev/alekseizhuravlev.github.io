@@ -29,7 +29,7 @@ sections:
           date_start: '2023-04-01'
           date_end: ''
           description: |2-
-              Supervised by Dr. Danda Pani Paudel, Dr. Thomas Probst
+              Supervised by [Dr. Danda Pani Paudel](https://people.ee.ethz.ch/~paudeld/), [Dr. Thomas Probst](https://probstt.bitbucket.io/)<br>
 
               - Developed a NeRF-based 3D reconstruction of the human hand from 60 images; evaluated on ∼500 sequences from the Interhand3.6m dataset <br>
               - Implemented a point-mesh distance finding algorithm on the GPU; reduced the calculation time from 5s to 0.3s compared to the CPU baseline <br> 
@@ -42,7 +42,7 @@ sections:
           date_start: '2019-11-01'
           date_end: '2022-02-01'
           description:  |2-
-              Supervised by Prof. Sergei Popov, Prof. Roberto Turolla
+              Supervised by [Prof. Sergei Popov](https://scholar.google.com/citations?user=6wyyiLkAAAAJ&hl=en), [Prof. Roberto Turolla](https://www.unipd.it/en/contatti/rubrica/?ruolo=1&checkout=cerca&persona=TUROLLA&key=A1136CDCCF2710E5179BC83D6E291FBA)<br>
               
               - Developed a dark matter detection model using satellite images of neutron stars; processed 3.1 TB of data collected over 4 years <br>
               - Utilized Very Deep Super-Resolution (VDSR) network to upscale low-resolution satellite images; improved SSIM metric by 11% over the baseline bicubic interpolation <br>
