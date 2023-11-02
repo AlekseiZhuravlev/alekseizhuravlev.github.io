@@ -14,7 +14,7 @@ image:
 # url_slides: ''
 
 links:
-- name: Project page
+- name: Project Page
   url: https://devpost.com/software/abiogenesis
 # url_video: 'https://devpost.com/software/abiogenesis'
 
