@@ -11,6 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -50,6 +51,17 @@ sections:
     design:
       columns: '2'
 
+  - block: collection
+    id: publications
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+    design:
+      columns: '2'
+      view: citation
+
   - block: portfolio
     id: projects
     content:
@@ -71,23 +83,14 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
 
-  - block: collection
-    content:
-      title: Publications
-      filters:
-        folders:
-          - publication
-    design:
-      columns: '2'
-      view: citation
 
-  - block: collection
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-    design:
-      columns: '2'
-      view: citation
+  # - block: collection
+  #   content:
+  #     title: Projects
+  #     filters:
+  #       folders:
+  #         - project
+  #   design:
+  #     columns: '2'
+  #     view: citation
 ---

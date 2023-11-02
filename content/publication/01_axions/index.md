@@ -11,7 +11,7 @@ authors:
 
 
 date: '2021-08-01T00:00:00Z'
-doi: 'https://doi.org/10.1016/j.physletb.2021.136615'
+# doi: 'https://doi.org/10.1016/j.physletb.2021.136615'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
