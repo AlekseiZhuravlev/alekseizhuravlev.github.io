@@ -29,11 +29,11 @@ sections:
           date_start: '2023-04-01'
           date_end: ''
           description: |2-
-              Supervised by Dr. Danda Pani Paudel, Dr. Thomas Probst
+              _Supervised by Dr. Danda Pani Paudel, Dr. Thomas Probst_
 
-              • Developed a NeRF-based 3D reconstruction of the human hand from 60 images; evaluated on ∼500 sequences from the Interhand3.6m dataset <br>
-              • Implemented a point-mesh distance finding algorithm on the GPU; reduced the calculation time from 5s to 0.3s compared to the CPU baseline <br> 
-              • Introduced perceptual loss (LPIPS) to enhance the visual quality; improved PSNR score by 14% over MSE loss <br>
+              - Developed a NeRF-based 3D reconstruction of the human hand from 60 images; evaluated on ∼500 sequences from the Interhand3.6m dataset <br>
+              - Implemented a point-mesh distance finding algorithm on the GPU; reduced the calculation time from 5s to 0.3s compared to the CPU baseline <br> 
+              - Introduced perceptual loss (LPIPS) to enhance the visual quality; improved PSNR score by 14% over MSE loss <br>
 
         - title: Research Assistant
           company: Moscow State University
@@ -42,11 +42,11 @@ sections:
           date_start: '2019-11-01'
           date_end: '2022-02-01'
           description:  |2-
-              Supervised by Prof. Sergei Popov, Prof. Roberto Turolla
+              _Supervised by Prof. Sergei Popov, Prof. Roberto Turolla_
               
-              • Developed a dark matter detection model using satellite images of neutron stars; processed 3.1 TB of data collected over 4 years <br>
-              • Utilized Very Deep Super-Resolution (VDSR) network to upscale low-resolution satellite images; improved SSIM metric by 11% over the baseline bicubic interpolation <br>
-              • Implemented a background subtraction model based on the R-CNN network; achieved a 3x speedup compared to the GrabCut algorithm <br>
+              - Developed a dark matter detection model using satellite images of neutron stars; processed 3.1 TB of data collected over 4 years <br>
+              - Utilized Very Deep Super-Resolution (VDSR) network to upscale low-resolution satellite images; improved SSIM metric by 11% over the baseline bicubic interpolation <br>
+              - Implemented a background subtraction model based on the R-CNN network; achieved a 3x speedup compared to the GrabCut algorithm <br>
     design:
       columns: '2'
 
