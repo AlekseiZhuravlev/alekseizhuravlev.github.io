@@ -29,7 +29,7 @@ sections:
           date_start: '2023-04-01'
           date_end: ''
           description: |2-
-              _Supervised by Dr. Danda Pani Paudel, Dr. Thomas Probst_
+              Supervised by Dr. Danda Pani Paudel, Dr. Thomas Probst
 
               - Developed a NeRF-based 3D reconstruction of the human hand from 60 images; evaluated on ∼500 sequences from the Interhand3.6m dataset <br>
               - Implemented a point-mesh distance finding algorithm on the GPU; reduced the calculation time from 5s to 0.3s compared to the CPU baseline <br> 
@@ -42,7 +42,7 @@ sections:
           date_start: '2019-11-01'
           date_end: '2022-02-01'
           description:  |2-
-              _Supervised by Prof. Sergei Popov, Prof. Roberto Turolla_
+              Supervised by Prof. Sergei Popov, Prof. Roberto Turolla
               
               - Developed a dark matter detection model using satellite images of neutron stars; processed 3.1 TB of data collected over 4 years <br>
               - Utilized Very Deep Super-Resolution (VDSR) network to upscale low-resolution satellite images; improved SSIM metric by 11% over the baseline bicubic interpolation <br>
@@ -64,13 +64,6 @@ sections:
       # To show all items, set `tag` to "*".
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -79,28 +72,21 @@ sections:
       flip_alt_rows: false
 
   - block: collection
-    id: featured
     content:
-      title: Featured Publications
+      title: Publications
       filters:
         folders:
           - publication
-        featured_only: true
     design:
       columns: '2'
-      view: card
+      view: citation
 
   - block: collection
     content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
+      title: Projects
       filters:
         folders:
-          - publication
-        exclude_featured: true
+          - project
     design:
       columns: '2'
       view: citation
