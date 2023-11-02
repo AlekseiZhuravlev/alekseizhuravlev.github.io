@@ -47,6 +47,8 @@ url_pdf: 'https://arxiv.org/pdf/2111.07955.pdf'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+  focal_point: Smart
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
