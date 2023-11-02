@@ -58,5 +58,10 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a MSc Computer Science student at the University of Bonn, Germany. My research interests focus on neural scene representation for 3D reconstruction, 3D model generation with large language models, and human body representation.
+
+Currently, I am working as a research assistant at ETH Zurich, supervised by [Dr. Danda Pani Paudel](https://people.ee.ethz.ch/~paudeld/) and [Dr. Thomas Probst](https://probstt.bitbucket.io/). My project focuses on a NeRF-based 3D modelling of a hand, using a set of images of a user performing a sequence of gestures. Previously, I pursued a BSc degree Physics at Lomonosov Moscow State University, Russia. I worked on Super-Resolution and Background Subtraction problems applied to satellite images of neutron stars, with a goal to detect traces of dark matter.
+
 {style="text-align: justify;"}
+
+
