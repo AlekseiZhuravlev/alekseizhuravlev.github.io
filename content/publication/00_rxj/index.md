@@ -1,6 +1,5 @@
 ---
-title: 'Toward Constraining Axions with Polarimetric Observations of the Isolated Neutron Star RX J1856.5–3754
-<br><h5>The Astrophysical Journal, 2022</h5>'
+title: 'Toward Constraining Axions with Polarimetric Observations of the Isolated Neutron Star RX J1856.5–3754'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -52,6 +51,9 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
+
+abstract: 'The Astrophysical Journal, 2022'
+
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
