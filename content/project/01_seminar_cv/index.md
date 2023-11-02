@@ -1,6 +1,6 @@
 ---
 title: Seminar in Computer Vision
-summary: Presented a paper on 3D panoptic segmentation with TensoRF backend; compared with 4 subsequent works
+summary: • Presented a paper on 3D panoptic segmentation with TensoRF backend; compared with 4 subsequent works
 date: '2023-09-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

@@ -1,6 +1,6 @@
 ---
 title: HackaTUM Hackaton, 1st place
-summary: Collected a dataset of 57 3D scans with a microwave detector; trained a ResNet-based model to recognize 3 types of recyclable waste with 73% accuracy
+summary: • Collected a dataset of 57 3D scans with a microwave detector; trained a ResNet-based model to recognize 3 types of recyclable waste with 73% accuracy
 date: '2022-11-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).

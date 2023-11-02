@@ -1,6 +1,6 @@
 ---
 title: TUM ML4Earth Hackathon, 1st place
-summary: Trained a 5-layer MLP-based network to predict soybean yields in 190 US counties over 5 years; reached 11% test set error
+summary: • Trained a 5-layer MLP-based network to predict soybean yields in 190 US counties over 5 years; reached 11% test set error
 date: '2022-10-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
