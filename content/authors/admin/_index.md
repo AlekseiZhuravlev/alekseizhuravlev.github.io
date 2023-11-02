@@ -20,8 +20,8 @@ organizations:
 # Interests to show in About widget
 interests:
   - 3D Deep Learning
-  - Text-to-3D modelling
-  - Human body representation
+  - Text-to-3D synthesis
+  - Human body modelling
 
 # Education to show in About widget
 education:
