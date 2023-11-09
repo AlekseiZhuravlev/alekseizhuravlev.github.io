@@ -125,7 +125,7 @@ sections:
           url: ''
         - title: Teaching assistant, Moscow State University 
           certificate_url: ''
-          date_end: ''
+          date_end: '2022-02-01'
           date_start: '2021-01-01'
           description: • Instructed groups of 20 undergraduates in the “Programming and Computer Science” course; average grades 4.7 out of 5.0
         - title: Scholarship for outstanding students, Moscow State University
@@ -134,6 +134,8 @@ sections:
           description: '• Awarded to top 5% of all students'
         - title: Moscow Informatics Olympiad
           description: '• 3rd place out of 70+ teams'
+          date_end: '2020-12-21'
+          date_start: '2020-07-01'
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
