@@ -83,7 +83,7 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
 
-  - block: additional_experience
+  - block: collection
     id: additional_experience
     content:
       title: Additional Experience and Awards
