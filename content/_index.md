@@ -101,7 +101,7 @@ sections:
       columns: '2'
       view: compact
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: falseany columns the section has. Valid values: '1' or '2'.
+      flip_alt_rows: false #any columns the section has. Valid values: '1' or '2'.
       columns: '2'  
 
 
