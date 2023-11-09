@@ -103,8 +103,8 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false #any columns the section has. Valid values: '1' or '2'
 
-
-- block: accomplishments
+  - block: accomplishments
+    id: accomplishments
     content:
       title: Additional Experience
       subtitle: ''
@@ -128,15 +128,12 @@ sections:
           date_end: ''
           date_start: '2021-01-01'
           description: • Instructed groups of 20 undergraduates in the “Programming and Computer Science” course; average grades 4.7 out of 5.0
-        - title: 'Object-Oriented Programming in R'
-          certificate_url: https://www.datacamp.com
+        - title: Scholarship for outstanding students, Moscow State University
           date_end: '2020-12-21'
           date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          url: ''
+          description: '• Awarded to top 5% of all students'
+        - title: Moscow Informatics Olympiad
+          description: '• 3rd place out of 70+ teams'
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
