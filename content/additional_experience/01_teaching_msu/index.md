@@ -2,7 +2,7 @@
 title: Teaching assistant, Moscow State University 
 summary: Feb 2021 – Jan 2022 <br>• Instructed groups of 20 undergraduates in the “Programming and Computer Science” course; average grades 4.7 out of 5.0
 
-date: '2023-09-27T00:00:00Z'
+
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

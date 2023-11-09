@@ -2,7 +2,7 @@
 title: Moscow Informatics Olympiad
 summary: May 2020 <br>• 3rd place out of 70+ teams
 
-date: '2023-09-27T00:00:00Z'
+
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

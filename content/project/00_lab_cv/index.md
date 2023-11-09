@@ -1,7 +1,7 @@
 ---
 title: Lab in Computer Vision
 summary: • Developed a human pose prediction model composed of convolutional layers and Squeeze-and-Excitation blocks; reduced the Mean Per Joint Position Error (MPJPE) by 2.9% over the baseline transformer model
-date: '2023-09-27T00:00:00Z'
+
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

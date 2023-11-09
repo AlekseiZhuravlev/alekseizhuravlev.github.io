@@ -86,7 +86,7 @@ sections:
   - block: collection
     id: additional_experience
     content:
-      title: Additional Experience and Awards
+      title: Additional Experience
       filters:
         folders:
           - additional_experience
@@ -101,8 +101,7 @@ sections:
       columns: '2'
       view: compact
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: false #any columns the section has. Valid values: '1' or '2'.
-      columns: '2'  
+      flip_alt_rows: false #any columns the section has. Valid values: '1' or '2'
 
 
   # - block: collection

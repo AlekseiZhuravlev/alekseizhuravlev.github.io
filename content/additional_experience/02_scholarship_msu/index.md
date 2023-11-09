@@ -2,7 +2,7 @@
 title: Scholarship for outstanding students, Moscow State University
 summary: Sep 2020 – May 2022 <br>• Awarded to top 5% of all students
 
-date: '2023-09-27T00:00:00Z'
+
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
