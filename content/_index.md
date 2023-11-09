@@ -129,8 +129,8 @@ sections:
           date_start: '2021-01-01'
           description: • Instructed groups of 20 undergraduates in the “Programming and Computer Science” course; average grades 4.7 out of 5.0
         - title: Scholarship for outstanding students, Moscow State University
-          date_end: '2020-09-21'
           date_start: '2022-05-01'
+          date_end: '2020-09-21'
           description: '• Awarded to top 5% of all students'
         - title: Moscow Informatics Olympiad
           description: '• 3rd place out of 70+ teams'
