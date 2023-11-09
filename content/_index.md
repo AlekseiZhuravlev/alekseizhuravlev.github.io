@@ -104,6 +104,44 @@ sections:
       flip_alt_rows: false #any columns the section has. Valid values: '1' or '2'
 
 
+- block: accomplishments
+    content:
+      title: Additional Experience
+      subtitle: ''
+      text: ''
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `items` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Teaching assistant, University of Bonn 
+          certificate_url: ''
+          date_start: '2019-11-01'
+          date_end: '2022-02-01'
+          description: '• Co-developed programming assignments for the “Computer Vision” course, attended by 30+ MSc students'
+          url: ''
+        - title: Teaching assistant, Moscow State University 
+          certificate_url: ''
+          date_end: ''
+          date_start: '2021-01-01'
+          description: • Instructed groups of 20 undergraduates in the “Programming and Computer Science” course; average grades 4.7 out of 5.0
+        - title: 'Object-Oriented Programming in R'
+          certificate_url: https://www.datacamp.com
+          date_end: '2020-12-21'
+          date_start: '2020-07-01'
+          description: ''
+          icon: datacamp
+          organization: DataCamp
+          organization_url: https://www.datacamp.com
+          url: ''
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+
+
   # - block: collection
   #   content:
   #     title: Projects
