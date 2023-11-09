@@ -1,8 +1,6 @@
 ---
 title: Moscow Informatics Olympiad
-summary: |2-
-May 2020
-• 3rd place out of 70+ teams
+summary: May 2020 <br>• 3rd place out of 70+ teams
 
 date: '2023-09-27T00:00:00Z'
 

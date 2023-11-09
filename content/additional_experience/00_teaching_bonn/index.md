@@ -1,8 +1,6 @@
 ---
 title: Teaching assistant, University of Bonn 
-summary: |2-
-Apr 2023 – Sep 2023
-• Co-developed programming assignments for the “Computer Vision” course, attended by 30+ MSc students
+summary: Apr 2023 – Sep 2023 <br>• Co-developed programming assignments for the “Computer Vision” course, attended by 30+ MSc students
 date: '2023-09-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
