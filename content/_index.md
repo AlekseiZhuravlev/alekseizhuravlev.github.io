@@ -119,8 +119,8 @@ sections:
       items:
         - title: Teaching assistant, University of Bonn 
           certificate_url: ''
-          date_start: '2019-11-01'
-          date_end: '2022-02-01'
+          date_start: '2023-04-01'
+          date_end: '2023-09-01'
           description: '• Co-developed programming assignments for the “Computer Vision” course, attended by 30+ MSc students'
           url: ''
         - title: Teaching assistant, Moscow State University 
@@ -129,13 +129,13 @@ sections:
           date_start: '2021-01-01'
           description: • Instructed groups of 20 undergraduates in the “Programming and Computer Science” course; average grades 4.7 out of 5.0
         - title: Scholarship for outstanding students, Moscow State University
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_end: '2020-09-21'
+          date_start: '2022-05-01'
           description: '• Awarded to top 5% of all students'
         - title: Moscow Informatics Olympiad
           description: '• 3rd place out of 70+ teams'
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_end: ''
+          date_start: '2020-05-01'
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '2'
