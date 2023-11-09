@@ -118,21 +118,25 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Teaching assistant, University of Bonn 
+          organization: ''
           certificate_url: ''
           date_start: '2023-04-01'
           date_end: '2023-09-01'
           description: '• Co-developed programming assignments for the “Computer Vision” course, attended by 30+ MSc students'
           url: ''
         - title: Teaching assistant, Moscow State University 
+          organization: ''
           certificate_url: ''
           date_end: '2022-02-01'
           date_start: '2021-01-01'
           description: • Instructed groups of 20 undergraduates in the “Programming and Computer Science” course; average grades 4.7 out of 5.0
         - title: Scholarship for outstanding students, Moscow State University
+          organization: ''
           date_start: '2020-09-21'
           date_end: '2022-05-01'
           description: '• Awarded to top 5% of all students'
         - title: Moscow Informatics Olympiad
+          organization: ''
           description: '• 3rd place out of 70+ teams'
           date_end: ''
           date_start: '2020-05-01'
