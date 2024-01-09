@@ -3,6 +3,13 @@
 title: 'Aleksei Zhuravlev'
 type: landing
 
+design:
+  background:
+    # Choose a color such as from https://html-color-codes.info
+    color: 'white'
+    # Text color (true=light, false=dark, or remove for the dynamic theme color).
+    text_color_light: false
+
 sections:
   - block: about.biography
     id: about
