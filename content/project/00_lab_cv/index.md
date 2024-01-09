@@ -82,6 +82,32 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 ## Results on custom dataset:
 
+### 10 seed frames + 10 frames prediction
+
+<table>
+  <tr>
+    <td><img src="visualization/best_model_ais_local/2021-08-04-singlePerson_000_20_10.gif" width="320" height="240"><br />singlePerson_000</td>
+    <td><img src="visualization/best_model_ais_local/2021-08-04-singlePerson_001_20_10.gif" width="320" height="240"><br />singlePerson_001</td>
+    </tr>
+    <tr>
+        <td><img src="visualization/best_model_ais_local/2022-05-26_2persons_001_30_10.gif" width="320" height="240"><br />2persons_001</td>
+        <td><img src="visualization/best_model_ais_local/2022-05-26_2persons_002_30_10.gif" width="320" height="240"><br />2persons_002</td>
+    </tr>
+</table>
+
+### Global movement: 10 seed frames + 10 frames prediction
+
+<table>
+  <tr>
+    <td><img src="visualization/best_model_ais_global/2021-08-04-singlePerson_000_10_10.gif" width="320" height="240"><br />singlePerson_000</td>
+    <td><img src="visualization/best_model_ais_global/2021-08-04-singlePerson_001_10_10.gif" width="320" height="240"><br />singlePerson_001</td>
+    </tr>
+    <tr>
+        <td><img src="visualization/best_model_ais_global/2022-05-26_2persons_001_10_10.gif" width="320" height="240"><br />2persons_001</td>
+        <td><img src="visualization/best_model_ais_global/2022-05-26_2persons_002_10_10.gif" width="320" height="240"><br />2persons_002</td>
+    </tr>
+</table>
+
 ### Autoregressive: 10 seed frames + 25 frames prediction
 
 <table>
