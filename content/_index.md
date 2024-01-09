@@ -117,13 +117,13 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Teaching assistant, University of Bonn 
-          organization: ''
-          certificate_url: ''
-          date_start: '2023-04-01'
-          date_end: '2023-09-01'
-          description: '• Co-developed programming assignments for the “Computer Vision” course, attended by 30+ MSc students'
-          url: ''
+        # - title: Teaching assistant, University of Bonn 
+        #   organization: ''
+        #   certificate_url: ''
+        #   date_start: '2023-04-01'
+        #   date_end: '2023-09-01'
+        #   description: '• Co-developed programming assignments for the “Computer Vision” course, attended by 30+ MSc students'
+        #   url: ''
         - title: Teaching assistant, Moscow State University 
           organization: ''
           certificate_url: ''
