@@ -39,40 +39,43 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 ## Method
 
-![Model architecture](visualization/Model_architecture.png "Model architecture")
+![Model architecture](visualization/Model_architecture.png)
 
-TL DR
 
-## Results on Human3.6m dataset
+
+## Results on Human3.6m dataset,10 seed frames + 10 frames prediction
 
 <table>
   <tr>
     <td><img src="visualization/best_model_h36m/directions_1_10.gif" width="320" height="240"><br />directions</td>
     <td><img src="visualization/best_model_h36m/discussion_1_10.gif" width="320" height="240"><br />discussion</td>
-    <td><img src="visualization/best_model_h36m/eating_1_10.gif" width="320" height="240"><br />eating</td>
   </tr>
     <tr>
-        <td><img src="visualization/best_model_h36m/greeting_1_10.gif" width="320" height="240"><br />greeting</td>
-        <td><img src="visualization/best_model_h36m/phoning_1_10.gif" width="320" height="240"><br />phoning</td>
-        <td><img src="visualization/best_model_h36m/posing_1_10.gif" width="320" height="240"><br />posing</td>
-    </tr>
-    <tr>
-        <td><img src="visualization/best_model_h36m/purchases_1_10.gif" width="320" height="240"><br />purchases</td>
-        <td><img src="visualization/best_model_h36m/sitting_1_10.gif" width="320" height="240"><br />sitting</td>
-        <td><img src="visualization/best_model_h36m/sittingdown_1_10.gif" width="320" height="240"><br />sittingdown</td>
-    </tr>
-    <tr>
         <td><img src="visualization/best_model_h36m/smoking_1_10.gif" width="320" height="240"><br />smoking</td>
-        <td><img src="visualization/best_model_h36m/takingphoto_1_10.gif" width="320" height="240"><br />takingphoto</td>
         <td><img src="visualization/best_model_h36m/waiting_1_10.gif" width="320" height="240"><br />waiting</td>
     </tr>
     <tr>
         <td><img src="visualization/best_model_h36m/walking_1_10.gif" width="320" height="240"><br />walking</td>
-        <td><img src="visualization/best_model_h36m/walkingdog_1_10.gif" width="320" height="240"><br />walkingdog</td>
         <td><img src="visualization/best_model_h36m/walkingtogether_1_10.gif" width="320" height="240"><br />walkingtogether</td>
     </tr>
 </table>
 
 
-## Results on custom dataset
+## Results on custom dataset, 10 seed frames + 25 frames autoregressive prediction
+
+<table>
+  <tr>
+    <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_000_20_10.gif" width="320" height="240"><br />singlePerson_000</td>
+    <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_001_20_10.gif" width="320" height="240"><br />singlePerson_001</td>
+    <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_002_20_10.gif" width="320" height="240"><br />singlePerson_002</td>
+    <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_003_20_10.gif" width="320" height="240"><br />singlePerson_003</td>
+    </tr>
+    <tr>
+        <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_000_30_10.gif" width="320" height="240"><br />2persons_000</td>
+        <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_001_30_10.gif" width="320" height="240"><br />2persons_001</td>
+        <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_002_30_10.gif" width="320" height="240"><br />2persons_002</td>
+        <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_003_30_10.gif" width="320" height="240"><br />2persons_003</td>
+    </tr>
+</table>
+
 ---
