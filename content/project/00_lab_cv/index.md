@@ -69,14 +69,10 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
   <tr>
     <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_000_20_10.gif" width="320" height="240"><br />singlePerson_000</td>
     <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_001_20_10.gif" width="320" height="240"><br />singlePerson_001</td>
-    <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_002_20_10.gif" width="320" height="240"><br />singlePerson_002</td>
-    <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_003_20_10.gif" width="320" height="240"><br />singlePerson_003</td>
     </tr>
     <tr>
-        <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_000_30_10.gif" width="320" height="240"><br />2persons_000</td>
         <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_001_30_10.gif" width="320" height="240"><br />2persons_001</td>
         <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_002_30_10.gif" width="320" height="240"><br />2persons_002</td>
-        <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_003_30_10.gif" width="320" height="240"><br />2persons_003</td>
     </tr>
 </table>
 
