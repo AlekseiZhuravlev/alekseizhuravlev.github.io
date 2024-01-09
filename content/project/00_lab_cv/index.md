@@ -57,7 +57,10 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 ![Model architecture](visualization/Model_architecture.png)
 
-
+- We build upon MotionMixer, which applied MLPs to an encoded pose vector. We replaced MLPs with convolutional layers and experimented with kernel sizes, number of layers, and ways to encode the pose vector
+- Our model can work with different methods of human pose representation, such as axis-angle or coordinate-based formats. We consider both local motion with respect to pelvis joint as well as global. 
+- We use 10 seed frames for prediction and output 10 subsequent frames. To generalize to longer sequences, we additionally consider autoregressive prediction with a sliding window for a total of 25 frames.
+- We test our model on Human3.6m dataset and custom data captured by our tutor, which has a slightly different skeleton model
 
 ## Results on Human3.6m dataset: 
 
