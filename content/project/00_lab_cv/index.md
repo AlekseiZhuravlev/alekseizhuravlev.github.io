@@ -44,7 +44,8 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 
 ## Results on Human3.6m dataset: 
-## 10 seed frames + 10 frames prediction
+
+### 10 seed frames + 10 frames prediction
 
 <table>
   <tr>
@@ -61,9 +62,27 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
     </tr>
 </table>
 
+### Autoregressive: 10 seed frames + 25 frames prediction
+
+<table>
+  <tr>
+    <td><img src="visualization/best_model_h36m_autoregressive/directions_1_10.gif" width="320" height="240"><br />directions</td>
+    <td><img src="visualization/best_model_h36m_autoregressive/discussion_1_10.gif" width="320" height="240"><br />discussion</td>
+  </tr>
+    <tr>
+        <td><img src="visualization/best_model_h36m_autoregressive/smoking_1_10.gif" width="320" height="240"><br />smoking</td>
+        <td><img src="visualization/best_model_h36m_autoregressive/waiting_1_10.gif" width="320" height="240"><br />waiting</td>
+    </tr>
+    <tr>
+        <td><img src="visualization/best_model_h36m_autoregressive/walking_1_10.gif" width="320" height="240"><br />walking</td>
+        <td><img src="visualization/best_model_h36m_autoregressive/walkingtogether_1_10.gif" width="320" height="240"><br />walkingtogether</td>
+    </tr>
+</table>
+
 
 ## Results on custom dataset:
-## 10 seed frames + 25 frames autoregressive prediction
+
+### Autoregressive: 10 seed frames + 25 frames prediction
 
 <table>
   <tr>
