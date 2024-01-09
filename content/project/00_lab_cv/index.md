@@ -41,6 +41,13 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 ## Skeleton Structure
 
+<table>
+  <tr>
+    <td><img src="animation_ais_1.gif" width="320" height="240"><br />Human3.6m dataset</td>
+    <td><img src="lab_cv/best_model_h36m/discussion_1_10.gif" width="320" height="240"><br />Our dataset</td>
+  </tr>
+</table>
+
 
 
 ## Results on Human3.6m dataset
