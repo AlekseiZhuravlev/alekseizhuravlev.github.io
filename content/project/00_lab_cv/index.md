@@ -1,5 +1,6 @@
 ---
 title: Lab in Computer Vision
+type: page
 summary: • Developed a human pose prediction model composed of convolutional layers and Squeeze-and-Excitation blocks; reduced the Mean Per Joint Position Error (MPJPE) by 2.9% over the baseline transformer model
 
 
