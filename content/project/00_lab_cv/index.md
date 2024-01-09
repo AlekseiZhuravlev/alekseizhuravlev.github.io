@@ -1,6 +1,6 @@
 ---
 # title: Lab in Computer Vision
-type: landing
+type: project
 # summary: • Developed a human pose prediction model composed of convolutional layers and Squeeze-and-Excitation blocks; reduced the Mean Per Joint Position Error (MPJPE) by 2.9% over the baseline transformer model
 # external_link: ''
 # url_code: 'https://github.com/AlekseiZhuravlev/MotionMixerConv/'
