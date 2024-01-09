@@ -43,7 +43,8 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 
 
-## Results on Human3.6m dataset,10 seed frames + 10 frames prediction
+## Results on Human3.6m dataset: 
+## 10 seed frames + 10 frames prediction
 
 <table>
   <tr>
@@ -61,7 +62,8 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 </table>
 
 
-## Results on custom dataset, 10 seed frames + 25 frames autoregressive prediction
+## Results on custom dataset:
+## 10 seed frames + 25 frames autoregressive prediction
 
 <table>
   <tr>
