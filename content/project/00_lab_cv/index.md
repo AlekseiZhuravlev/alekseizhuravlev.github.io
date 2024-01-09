@@ -39,7 +39,40 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 ## Method
 
+## Skeleton Structure
+
+
+
 ## Results on Human3.6m dataset
+
+<table>
+  <tr>
+    <td><img src="lab_cv/best_model_h36m/directions_1_10.gif" width="320" height="240"><br />directions</td>
+    <td><img src="lab_cv/best_model_h36m/discussion_1_10.gif" width="320" height="240"><br />discussion</td>
+    <td><img src="lab_cv/best_model_h36m/eating_1_10.gif" width="320" height="240"><br />eating</td>
+  </tr>
+    <tr>
+        <td><img src="lab_cv/best_model_h36m/greeting_1_10.gif" width="320" height="240"><br />greeting</td>
+        <td><img src="lab_cv/best_model_h36m/phoning_1_10.gif" width="320" height="240"><br />phoning</td>
+        <td><img src="lab_cv/best_model_h36m/posing_1_10.gif" width="320" height="240"><br />posing</td>
+    </tr>
+    <tr>
+        <td><img src="lab_cv/best_model_h36m/purchases_1_10.gif" width="320" height="240"><br />purchases</td>
+        <td><img src="lab_cv/best_model_h36m/sitting_1_10.gif" width="320" height="240"><br />sitting</td>
+        <td><img src="lab_cv/best_model_h36m/sittingdown_1_10.gif" width="320" height="240"><br />sittingdown</td>
+    </tr>
+    <tr>
+        <td><img src="lab_cv/best_model_h36m/smoking_1_10.gif" width="320" height="240"><br />smoking</td>
+        <td><img src="lab_cv/best_model_h36m/takingphoto_1_10.gif" width="320" height="240"><br />takingphoto</td>
+        <td><img src="lab_cv/best_model_h36m/waiting_1_10.gif" width="320" height="240"><br />waiting</td>
+    </tr>
+    <tr>
+        <td><img src="lab_cv/best_model_h36m/walking_1_10.gif" width="320" height="240"><br />walking</td>
+        <td><img src="lab_cv/best_model_h36m/walkingdog_1_10.gif" width="320" height="240"><br />walkingdog</td>
+        <td><img src="lab_cv/best_model_h36m/walkingtogether_1_10.gif" width="320" height="240"><br />walkingtogether</td>
+    </tr>
+</table>
+
 
 ## Results on custom dataset
 ---
