@@ -7,5 +7,5 @@ date: '2023-10-31T00:00:00Z'
 url_code: 'https://github.com/AlekseiZhuravlev/MotionMixerConv/'
 url_pdf: 'https://drive.google.com/file/d/1uFtFNbG0R6z7cEVWbDfxI2-yMyg_wJ5K/view?usp=sharing'
 slides: ""
-external_link: 'content/project/00_lab_cv/landing.md'
+external_link: 'project/00_lab_cv/landing.md'
 ---
