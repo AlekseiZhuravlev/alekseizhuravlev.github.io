@@ -36,13 +36,24 @@ header:
   <b><i>University of Bonn</i></b>
 </div>
 
+
+<table>
+  <tr>
+    <td><img src="visualization/best_model_h36m/walking_1_10.gif" width="320" height="240"><br />Prediction on Human3.6m dataset</td>
+    <td><img src="visualization/best_model_ais_local/2021-08-04-singlePerson_001_20_10.gif" width="320" height="240"><br />Prediction on our dataset</td>
+    </tr>
+</table>
+
+
 ## Abstract
 
 <div style="text-align: justify"> 
 In this work we address the problem of 3D human pose forecasting. Given a pose representation, our model, Convolutional Mixer, first applies the convolution in temporal dimension, learning the dependency between the target joint position at previous and future time frames. Then, it performs convolution in pose dimension to assess the relation between adjacent joints. We perform experiments on Human3.6m dataset and evaluate the importance of each parameter of our model.  We also evaluate it on the custom dataset recorded in the AIS lab. Finally, we extend it to perform predictions in an autoregressive fashion, which allows us to perform inference over long time intervals. Our results show that the model performs well on various motion sequences, and generalizes to novel datasets and long predictions.
 </div>
 
+
 ## Method
+
 
 ![Model architecture](visualization/Model_architecture.png)
 
