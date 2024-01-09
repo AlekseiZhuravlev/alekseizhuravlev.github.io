@@ -7,7 +7,7 @@ date: '2023-10-31T00:00:00Z'
 
 links:
   -name: Project Page
-    url: https://alekseizhuravlev.github.io/project/00_lab_cv/
+  url: https://alekseizhuravlev.github.io/project/00_lab_cv/
   -name: Code
   url: 'https://github.com/AlekseiZhuravlev/MotionMixerConv/'
   -name: PDF
