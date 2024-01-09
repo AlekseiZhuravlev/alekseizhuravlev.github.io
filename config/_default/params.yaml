@@ -5,11 +5,11 @@
 
 # Appearance
 
-appearance:
-  theme_day: light #minimal
-  theme_night: light
-  font: clean
-  font_size: L
+# appearance:
+#   theme_day: light #minimal
+#   theme_night: light
+#   font: clean
+#   font_size: L
 
 # SEO
 
@@ -33,7 +33,7 @@ marketing:
 
 header:
   navbar:
-    enable: true
+    enable: false
     align: l
     show_logo: true
     show_language: false
@@ -62,6 +62,11 @@ locale:
 # Site features
 
 features:
+  appearance:
+    theme_day: light #minimal
+    theme_night: light
+    font: clean
+    font_size: L
   syntax_highlighter:
     theme_light: github-light
     theme_dark: github-light #dracula
