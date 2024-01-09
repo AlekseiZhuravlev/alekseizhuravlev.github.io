@@ -8,10 +8,10 @@ date: '2023-10-31T00:00:00Z'
 links:
 - name: Project Page
   url: 'https://alekseizhuravlev.github.io/project/00_lab_cv/'
-- name: Code
-  url: 'https://github.com/AlekseiZhuravlev/MotionMixerConv/'
 - name: PDF
   url: 'https://drive.google.com/file/d/1uFtFNbG0R6z7cEVWbDfxI2-yMyg_wJ5K/view?usp=sharing'
+- name: Code
+  url: 'https://github.com/AlekseiZhuravlev/MotionMixerConv/'
 
 
 slides: ""
