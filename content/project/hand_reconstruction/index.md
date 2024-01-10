@@ -1,22 +1,21 @@
 ---
 title: Implicit hand reconstruction
 # type: project
-summary: • Developed a human pose prediction model composed of convolutional layers and Squeeze-and-Excitation blocks; reduced the Mean Per Joint Position Error (MPJPE) by 2.9% over the baseline transformer model
+summary: • Developed a NeRF-based 3D reconstruction of the human hand based on Interhand2.6m dataset
+
 date: '2023-12-31T00:00:00Z'
 
 links:
 - name: Project Page
-  url: 'https://alekseizhuravlev.github.io/project/00_lab_cv/'
-- name: PDF
-  url: 'https://drive.google.com/file/d/1uFtFNbG0R6z7cEVWbDfxI2-yMyg_wJ5K/view?usp=sharing'
-- name: Code
-  url: 'https://github.com/AlekseiZhuravlev/MotionMixerConv/'
+  url: 'https://alekseizhuravlev.github.io/project/hand_reconstruction/'
+- name: Code (soon)
+  url: ''
 
 
 slides: ""
 
 image:
-  preview_only: true
+  preview_only: false
 
 
 # Page settings
@@ -37,10 +36,14 @@ header:
     enable: false
 ---
 
-<div align="center">
-  <b>Aleksei Zhuravlev and Valentin von Bornhaupt</b><br>
+<!-- <div align="center">
+  <b>Aleksei Zhuravlev, [Dr. Danda Pani Paudel](https://people.ee.ethz.ch/~paudeld/), [Dr. Thomas Probst](https://probstt.bitbucket.io/)</b><br>
   <b><i>University of Bonn</i></b>
-</div>
+</div> -->
+
+<p style="text-align: center;">
+Aleksei Zhuravlev, [Dr. Danda Pani Paudel](https://people.ee.ethz.ch/~paudeld/), [Dr. Thomas Probst](https://probstt.bitbucket.io/)
+</p>
 
 
 <table>
