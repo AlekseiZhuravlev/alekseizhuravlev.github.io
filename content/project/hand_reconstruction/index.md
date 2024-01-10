@@ -71,10 +71,11 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 ![Model architecture](Architecture_livehand.png "Architecture of LiveHand, reimplemented from scratch")
 
-- We build upon MotionMixer, which applied MLPs to an encoded pose vector. We replaced MLPs with convolutional layers and experimented with kernel sizes, number of layers, and ways to encode the pose vector
-- Our model can work with different methods of human pose representation, such as axis-angle or coordinate-based formats. We consider both local motion with respect to pelvis joint as well as global. 
-- We use 10 seed frames for prediction and output 10 subsequent frames. To generalize to longer sequences, we additionally consider autoregressive prediction with a sliding window for a total of 25 frames.
-- We test our model on Human3.6m dataset and custom data captured by our tutor, which has a slightly different skeleton model
+- Implemented warping of 3D points to zero pose canonical space - adapted the approach of HumanNeRF to human hand setting instead of full body
+- Implemented warping of 3D points to UV space (texture coordinates + distance to the mesh), based on LiveHand - developed from scratch without using C++ CUDA kernels
+- Introduced perceptual loss (LPIPS) to enhance the visual quality; improved PSNR score by 14% over MSE-only loss
+
+
 
 ## Results
 
@@ -89,9 +90,9 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 Single view multi-pose sequence
 
 ![Reconstructed avatar](multi_pose.png "Reconstructed avatar in multiple poses from different views")
-<!-- <img src="multi_pose.png" align="center"> -->
-
-<!-- Reconstructed avatar in multiple poses from different views -->
-
 </center>
----
+
+## References
+
+1. LiveHand: Real-time and Photorealistic Neural Hand Rendering. arXiv preprint arXiv:2302.07672
+2. Neuman: Neural human radiance field from a single video. In European Conference on Computer Vision, pp. 402-418. Cham: Springer Nature Switzerland, 2022
