@@ -56,7 +56,9 @@ header:
 ## Abstract
 
 <div style="text-align: justify"> 
-In this work we address the problem of 3D human pose forecasting. Given a pose representation, our model, Convolutional Mixer, first applies the convolution in temporal dimension, learning the dependency between the target joint position at previous and future time frames. Then, it performs convolution in pose dimension to assess the relation between adjacent joints. We perform experiments on Human3.6m dataset and evaluate the importance of each parameter of our model.  We also evaluate it on the custom dataset recorded in the AIS lab. Finally, we extend it to perform predictions in an autoregressive fashion, which allows us to perform inference over long time intervals. Our results show that the model performs well on various motion sequences, and generalizes to novel datasets and long predictions.
+
+This work addresses the problem of reconstructing an animatable avatar of a human hand from a collection of images of a user performing a sequence of gestures. The model can capture accurate hand shape and appearance and generalize to various hand subjects. 
+For a 3D point, our framework can apply two types of warping: zero-pose canonical space and UV space. The encoded coordinates are then passed to a NeRF which outputs the expected color and density. We demonstrate that our model can accurately reconstruct a dynamic hand from monocular or multi-view sequences, achieving high visual quality on Interhand2.6m dataset.
 </div>
 
 
@@ -71,8 +73,8 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 ![Model architecture](Architecture_livehand.png "Architecture of LiveHand, reimplemented from scratch")
 
-- Implemented warping of 3D points to zero pose canonical space - adapted the approach of HumanNeRF to human hand setting instead of full body
-- Implemented warping of 3D points to UV space (texture coordinates + distance to the mesh), based on LiveHand - developed from scratch without using C++ CUDA kernels
+- Warping of 3D points to zero pose canonical space - adapted the approach of HumanNeRF to human hand setting instead of full body
+- Warping of 3D points to UV space (texture coordinates + distance to the mesh), based on LiveHand - developed from scratch without using C++ CUDA kernels
 - Introduced perceptual loss (LPIPS) to enhance the visual quality; improved PSNR score by 14% over MSE-only loss
 
 
