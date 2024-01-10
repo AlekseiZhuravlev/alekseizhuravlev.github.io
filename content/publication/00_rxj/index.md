@@ -36,6 +36,9 @@ tags: []
 # - name: Custom Link
 #   url: http://example.org
 
+external_link: 'https://arxiv.org/pdf/2111.07955.pdf'
+
+
 url_pdf: 'https://arxiv.org/pdf/2111.07955.pdf'
 # url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
