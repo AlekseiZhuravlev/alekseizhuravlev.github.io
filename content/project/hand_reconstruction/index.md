@@ -88,9 +88,10 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 Single view multi-pose sequence
 
-<img src="multi_pose.png" align="center">
+![Reconstructed avatar](multi_pose.png "Reconstructed avatar in multiple poses from different views")
+<!-- <img src="multi_pose.png" align="center"> -->
 
-Reconstructed avatar in multiple poses from different views
+<!-- Reconstructed avatar in multiple poses from different views -->
 
 </center>
 ---
