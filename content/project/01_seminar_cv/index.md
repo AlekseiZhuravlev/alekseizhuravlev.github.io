@@ -4,7 +4,7 @@ summary: • Presented a paper on 3D panoptic segmentation with TensoRF backend;
 date: '2023-09-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://drive.google.com/file/d/1MiSCAk9KE7HUKOM4FDsDFsf3-1Z6VmQY/view?usp=sharing'
 
 image:
   focal_point: Smart

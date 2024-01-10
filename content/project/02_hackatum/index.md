@@ -4,7 +4,7 @@ summary: • Collected a dataset of 57 3D scans with a microwave detector; train
 date: '2022-11-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://devpost.com/software/abiogenesis'
 
 image:
   focal_point: Smart

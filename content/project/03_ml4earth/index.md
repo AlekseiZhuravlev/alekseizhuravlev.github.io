@@ -4,7 +4,7 @@ summary: • Trained a 5-layer MLP-based network to predict soybean yields in 19
 date: '2022-10-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://devpost.com/software/atrium-aeuy62'
 
 image:
   focal_point: Smart
