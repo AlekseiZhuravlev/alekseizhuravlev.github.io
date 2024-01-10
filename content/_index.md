@@ -30,7 +30,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Research Assistant
+        - title: [Research Assistant](https://alekseizhuravlev.github.io/post/jupyter/)
           company: ETH Zurich
           company_url: ''
           location: remote
