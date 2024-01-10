@@ -57,8 +57,8 @@ header:
 
 <div style="text-align: justify"> 
 
-This work addresses the problem of reconstructing an animatable avatar of a human hand from a collection of images of a user performing a sequence of gestures. The model can capture accurate hand shape and appearance and generalize to various hand subjects. 
-For a 3D point, our framework can apply two types of warping: zero-pose canonical space and UV space. The encoded coordinates are then passed to a NeRF which outputs the expected color and density. We demonstrate that our model can accurately reconstruct a dynamic hand from monocular or multi-view sequences, achieving high visual quality on Interhand2.6m dataset.
+This work addresses the problem of reconstructing an animatable avatar of a human hand from a collection of images of a user performing a sequence of gestures. Our model can capture accurate hand shape and appearance and generalize to various hand subjects. 
+For a 3D point, we can apply two types of warping: zero-pose canonical space and UV space. The encoded coordinates are then passed to a NeRF which outputs the expected color and density. We demonstrate that our model can accurately reconstruct a dynamic hand from monocular or multi-view sequences, achieving high visual quality on Interhand2.6m dataset.
 </div>
 
 
