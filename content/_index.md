@@ -30,7 +30,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: [Research Assistant](https://alekseizhuravlev.github.io/post/jupyter/)
+        - title: Research Assistant
           company: ETH Zurich
           company_url: ''
           location: remote
@@ -58,16 +58,6 @@ sections:
     design:
       columns: '2'
 
-  - block: collection
-    id: publications
-    content:
-      title: Publications
-      filters:
-        folders:
-          - publication
-    design:
-      columns: '2'
-      view: compact
 
   - block: portfolio
     id: projects
@@ -89,6 +79,17 @@ sections:
       view: compact
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+
+  - block: collection
+    id: publications
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+    design:
+      columns: '2'
+      view: compact
 
   # - block: portfolio
   #   id: additional_experience

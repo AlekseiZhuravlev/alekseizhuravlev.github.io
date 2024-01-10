@@ -1,9 +1,8 @@
 ---
-title: Human Pose Forecasting
-# subtitle: Human Pose Forecasting
+title: Implicit hand reconstruction
 # type: project
 summary: • Developed a human pose prediction model composed of convolutional layers and Squeeze-and-Excitation blocks; reduced the Mean Per Joint Position Error (MPJPE) by 2.9% over the baseline transformer model
-date: '2023-10-31T00:00:00Z'
+date: '2023-12-31T00:00:00Z'
 
 links:
 - name: Project Page
