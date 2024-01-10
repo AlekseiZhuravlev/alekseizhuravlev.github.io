@@ -18,7 +18,7 @@ links:
 #url_pdf: 'https://drive.google.com/file/d/1uFtFNbG0R6z7cEVWbDfxI2-yMyg_wJ5K/view?usp=sharing'
 #url_video: ''
 
-# Slides (optional).
+# Slides (optional).c
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
