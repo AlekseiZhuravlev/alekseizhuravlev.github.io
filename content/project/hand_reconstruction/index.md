@@ -1,7 +1,7 @@
 ---
 title: Implicit hand reconstruction
 # type: project
-summary: • Developed a NeRF-based 3D reconstruction of the human hand based on Interhand2.6m dataset
+summary: • Developed a NeRF-based 3D reconstruction of the human hand based on Interhand2.6m dataset; Introduced perceptual loss (LPIPS) to enhance the visual quality
 
 date: '2023-12-31T00:00:00Z'
 
@@ -73,12 +73,10 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 ## Results
 <table>
   <tr>
-    <td><img src="visualization/best_model_h36m/directions_1_10.gif" width="320" height="240"><br />directions</td>
-    <td><img src="visualization/best_model_h36m/discussion_1_10.gif" width="320" height="240"><br />discussion</td>
+    <td><img src="cam400293.gif" width="320" height="240"><br /></td>
+    <td><img src="cam400296.gif" width="320" height="240"><br /></td>
   </tr>
-    <tr>
-        <td><img src="visualization/best_model_h36m/smoking_1_10.gif" width="320" height="240"><br />smoking</td>
-        <td><img src="visualization/best_model_h36m/waiting_1_10.gif" width="320" height="240"><br />waiting</td>
-    </tr>
 </table>
+
+<img src="multi_pose.png" align="center">
 ---
