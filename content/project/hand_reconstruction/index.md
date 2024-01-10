@@ -15,8 +15,7 @@ links:
 slides: ""
 
 image:
-  preview_only: false
-
+  preview_only: true
 
 # Page settings
 show_title: false
@@ -41,15 +40,15 @@ header:
   <b><i>University of Bonn</i></b>
 </div> -->
 
-<p style="text-align: center;">
-Aleksei Zhuravlev, [Dr. Danda Pani Paudel](https://people.ee.ethz.ch/~paudeld/), [Dr. Thomas Probst](https://probstt.bitbucket.io/)
-</p>
+<!-- <p style="text-align: center;"> -->
+[Aleksei Zhuravlev](https://alekseizhuravlev.github.io/), [Dr. Danda Pani Paudel](https://people.ee.ethz.ch/~paudeld/) and [Dr. Thomas Probst](https://probstt.bitbucket.io/)
+<!-- </p> -->
 
 
 <table>
   <tr>
-    <td><img src="visualization/best_model_h36m/walking_1_10.gif" width="320" height="240"><br />Prediction on Human3.6m dataset</td>
-    <td><img src="visualization/best_model_ais_local/2021-08-04-singlePerson_001_20_10.gif" width="320" height="240"><br />Prediction on our dataset</td>
+    <td><img src="featured.gif" width="320" height="240"><br /></td>
+    <td><img src="cam400280.gif" width="320" height="240"><br /></td>
     </tr>
 </table>
 
@@ -71,10 +70,7 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 - We use 10 seed frames for prediction and output 10 subsequent frames. To generalize to longer sequences, we additionally consider autoregressive prediction with a sliding window for a total of 25 frames.
 - We test our model on Human3.6m dataset and custom data captured by our tutor, which has a slightly different skeleton model
 
-## Results on Human3.6m dataset: 
-
-### 10 seed frames + 10 frames prediction
-
+## Results
 <table>
   <tr>
     <td><img src="visualization/best_model_h36m/directions_1_10.gif" width="320" height="240"><br />directions</td>
@@ -84,69 +80,5 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
         <td><img src="visualization/best_model_h36m/smoking_1_10.gif" width="320" height="240"><br />smoking</td>
         <td><img src="visualization/best_model_h36m/waiting_1_10.gif" width="320" height="240"><br />waiting</td>
     </tr>
-    <tr>
-        <td><img src="visualization/best_model_h36m/walking_1_10.gif" width="320" height="240"><br />walking</td>
-        <td><img src="visualization/best_model_h36m/walkingtogether_1_10.gif" width="320" height="240"><br />walkingtogether</td>
-    </tr>
 </table>
-
-### Autoregressive: 10 seed frames + 25 frames prediction
-
-<table>
-  <tr>
-    <td><img src="visualization/best_model_h36m_autoregressive/directions_1_10.gif" width="320" height="240"><br />directions</td>
-    <td><img src="visualization/best_model_h36m_autoregressive/discussion_1_10.gif" width="320" height="240"><br />discussion</td>
-  </tr>
-    <tr>
-        <td><img src="visualization/best_model_h36m_autoregressive/smoking_1_10.gif" width="320" height="240"><br />smoking</td>
-        <td><img src="visualization/best_model_h36m_autoregressive/waiting_1_10.gif" width="320" height="240"><br />waiting</td>
-    </tr>
-    <tr>
-        <td><img src="visualization/best_model_h36m_autoregressive/walking_1_10.gif" width="320" height="240"><br />walking</td>
-        <td><img src="visualization/best_model_h36m_autoregressive/walkingtogether_1_10.gif" width="320" height="240"><br />walkingtogether</td>
-    </tr>
-</table>
-
-
-## Results on custom dataset:
-
-### 10 seed frames + 10 frames prediction
-
-<table>
-  <tr>
-    <td><img src="visualization/best_model_ais_local/2021-08-04-singlePerson_000_20_10.gif" width="320" height="240"><br />singlePerson_000</td>
-    <td><img src="visualization/best_model_ais_local/2021-08-04-singlePerson_001_20_10.gif" width="320" height="240"><br />singlePerson_001</td>
-    </tr>
-    <tr>
-        <td><img src="visualization/best_model_ais_local/2022-05-26_2persons_001_30_10.gif" width="320" height="240"><br />2persons_001</td>
-        <td><img src="visualization/best_model_ais_local/2022-05-26_2persons_002_30_10.gif" width="320" height="240"><br />2persons_002</td>
-    </tr>
-</table>
-
-### Global movement: 10 seed frames + 10 frames prediction
-
-<table>
-  <tr>
-    <td><img src="visualization/best_model_ais_global/2021-08-04-singlePerson_000_10_10.gif" width="320" height="240"><br />singlePerson_000</td>
-    <td><img src="visualization/best_model_ais_global/2021-08-04-singlePerson_001_10_10.gif" width="320" height="240"><br />singlePerson_001</td>
-    </tr>
-    <tr>
-        <td><img src="visualization/best_model_ais_global/2022-05-26_2persons_001_10_10.gif" width="320" height="240"><br />2persons_001</td>
-        <td><img src="visualization/best_model_ais_global/2022-05-26_2persons_002_10_10.gif" width="320" height="240"><br />2persons_002</td>
-    </tr>
-</table>
-
-### Autoregressive: 10 seed frames + 25 frames prediction
-
-<table>
-  <tr>
-    <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_000_20_10.gif" width="320" height="240"><br />singlePerson_000</td>
-    <td><img src="visualization/best_model_ais_autoregressive/2021-08-04-singlePerson_001_20_10.gif" width="320" height="240"><br />singlePerson_001</td>
-    </tr>
-    <tr>
-        <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_001_30_10.gif" width="320" height="240"><br />2persons_001</td>
-        <td><img src="visualization/best_model_ais_autoregressive/2022-05-26_2persons_002_30_10.gif" width="320" height="240"><br />2persons_002</td>
-    </tr>
-</table>
-
 ---
