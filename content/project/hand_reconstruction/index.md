@@ -62,8 +62,14 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 
 ## Method
 
+<!-- <table>
+  <tr>
+    <td><img src="Architecture_hypernerf.png"></td>
+    <td><img src="Architecture_livehand.png"></td>
+  </tr>
+</table> -->
 
-![Model architecture](visualization/Model_architecture.png)
+![Model architecture](Architecture_livehand.png "Architecture of LiveHand, reimplemented from scratch")
 
 - We build upon MotionMixer, which applied MLPs to an encoded pose vector. We replaced MLPs with convolutional layers and experimented with kernel sizes, number of layers, and ways to encode the pose vector
 - Our model can work with different methods of human pose representation, such as axis-angle or coordinate-based formats. We consider both local motion with respect to pelvis joint as well as global. 
@@ -71,6 +77,8 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
 - We test our model on Human3.6m dataset and custom data captured by our tutor, which has a slightly different skeleton model
 
 ## Results
+
+<center>
 <table>
   <tr>
     <td><img src="cam400293.gif" width="320" height="240"><br /></td>
@@ -78,5 +86,11 @@ In this work we address the problem of 3D human pose forecasting. Given a pose r
   </tr>
 </table>
 
+Single view multi-pose sequence
+
 <img src="multi_pose.png" align="center">
+
+Reconstructed avatar in multiple poses from different views
+
+</center>
 ---
