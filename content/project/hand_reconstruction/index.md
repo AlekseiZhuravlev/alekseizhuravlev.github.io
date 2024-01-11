@@ -58,22 +58,17 @@ header:
 <div style="text-align: justify"> 
 
 This work addresses the problem of reconstructing an animatable avatar of a human hand from a collection of images of a user performing a sequence of gestures. Our model can capture accurate hand shape and appearance and generalize to various hand subjects. 
-For a 3D point, we can apply two types of warping: zero-pose canonical space and UV space. The encoded coordinates are then passed to a NeRF which outputs the expected color and density. We demonstrate that our model can accurately reconstruct a dynamic hand from monocular or multi-view sequences, achieving high visual quality on Interhand2.6m dataset.
+For a 3D point, we can apply two types of warping: zero-pose canonical space and UV space. The warped coordinates are then passed to a NeRF which outputs the expected color and density. We demonstrate that our model can accurately reconstruct a dynamic hand from monocular or multi-view sequences, achieving high visual quality on Interhand2.6m dataset.
 </div>
 
 
 ## Method
 
-<!-- <table>
-  <tr>
-    <td><img src="Architecture_hypernerf.png"></td>
-    <td><img src="Architecture_livehand.png"></td>
-  </tr>
-</table> -->
+![Model architecture](Architecture_humannerf.png "Architecture of HumanNeRF, adapted to human hand setting instead of full body")
 
 ![Model architecture](Architecture_livehand.png "Architecture of LiveHand, reimplemented from scratch")
 
-- Warping of 3D points to zero pose canonical space - adapted the approach of HumanNeRF to human hand setting instead of full body
+- Warping of 3D points to zero pose canonical space - adapted the approach of HumanNeRF to the hand setting instead of full body
 - Warping of 3D points to UV space (texture coordinates + distance to the mesh), based on LiveHand - developed from scratch without using C++ CUDA kernels
 - Introduced perceptual loss (LPIPS) to enhance the visual quality; improved PSNR score by 14% over MSE-only loss
 
@@ -96,5 +91,5 @@ Single view multi-pose sequence
 
 ## References
 
-1. LiveHand: Real-time and Photorealistic Neural Hand Rendering. arXiv preprint arXiv:2302.07672
-2. Neuman: Neural human radiance field from a single video. In European Conference on Computer Vision, pp. 402-418. Cham: Springer Nature Switzerland, 2022
+1. [LiveHand](https://vcai.mpi-inf.mpg.de/projects/LiveHand/): Real-time and Photorealistic Neural Hand Rendering. arXiv preprint arXiv:2302.07672
+2. [Neuman](https://machinelearning.apple.com/research/neural-human-radiance-field): Neural human radiance field from a single video. In European Conference on Computer Vision, pp. 402-418. Cham: Springer Nature Switzerland, 2022
