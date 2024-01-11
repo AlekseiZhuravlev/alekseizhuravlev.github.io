@@ -39,6 +39,8 @@ sections:
           description: |2-
               Supervised by [Dr. Danda Pani Paudel](https://people.ee.ethz.ch/~paudeld/), [Dr. Thomas Probst](https://probstt.bitbucket.io/)<br>
 
+              [Project Page](https://alekseizhuravlev.github.io/project/hand_reconstruction/)<br>
+
               - Developed a NeRF-based 3D reconstruction of the human hand from 60 images; evaluated on ∼500 sequences from the Interhand3.6m dataset <br>
               - Implemented a point-mesh distance finding algorithm on the GPU; reduced the calculation time from 5s to 0.3s compared to the CPU baseline <br> 
               - Introduced perceptual loss (LPIPS) to enhance the visual quality; improved PSNR score by 14% over MSE loss <br>

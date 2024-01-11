@@ -1,7 +1,7 @@
 ---
 title: Implicit hand reconstruction
 # type: project
-summary: • Developed a NeRF-based 3D reconstruction of the human hand based on Interhand2.6m dataset; Introduced perceptual loss (LPIPS) to enhance the visual quality
+summary: • Developed a NeRF-based 3D reconstruction of the human hand based on Interhand2.6m dataset; Introduced perceptual loss (LPIPS) to improve PSNR score by 14% over MSE-only loss
 
 date: '2023-12-31T00:00:00Z'
 
