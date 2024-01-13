@@ -1,16 +1,12 @@
 ---
 title: Implicit Hand Reconstruction
 # type: project
-summary: • Developed a NeRF-based 3D reconstruction of the human hand based on Interhand2.6m dataset; Introduced perceptual loss (LPIPS) to improve PSNR score by 14% over MSE-only loss
-
+summary: • Developed a NeRF-based 3D reconstruction of a human hand from monocular and multi-view sequences, based on Interhand2.6m dataset
 date: '2023-12-31T00:00:00Z'
 
 links:
 - name: Project Page
   url: 'https://alekseizhuravlev.github.io/project/hand_reconstruction/'
-- name: Code (soon)
-  url: ''
-
 
 slides: ""
 
