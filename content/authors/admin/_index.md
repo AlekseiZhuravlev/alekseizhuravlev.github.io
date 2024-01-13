@@ -52,7 +52,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/CV_Aleksei_Zhuravlev_2pages.pdf
+    link: uploads/CV_Aleksei_Zhuravlev.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
