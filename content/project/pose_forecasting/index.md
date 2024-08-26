@@ -2,7 +2,7 @@
 title: Human Pose Forecasting
 # subtitle: Human Pose Forecasting
 # type: project
-summary: A human pose prediction model based on temporal convolution, learning the relationship between joint positions in previous and future time steps. Performs inference in autoregressive way over time intervals of up to 2 seconds.
+summary: • A human pose prediction model based on temporal convolution. Performs inference in autoregressive way over time intervals of up to 2 seconds.
 date: '2023-10-31T00:00:00Z'
 
 links:
