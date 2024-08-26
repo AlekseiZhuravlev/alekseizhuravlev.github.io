@@ -18,10 +18,10 @@ superuser: true
 #     url: https://www.uni-bonn.de/en
 
 # Interests to show in About widget
-# interests:
-#   - Virtual Humans
-#   - Denoising Diffusion Models
-#   - Neural Radiance Fields
+interests:
+  - Modeling of the Human Body
+  - Denoising Diffusion Models
+  - Neural Radiance Fields
 
 # Education to show in About widget
 education:
@@ -58,9 +58,7 @@ social:
 highlight_name: true
 ---
 
-I am a MSc Computer Science student at the University of Bonn, Germany. I am interested in <u>Virtual Humans</u>, <u>Denoising Diffusion Models</u>, and <u>Neural Radiance Fields</u>.
-
-Currently, I am working on a Master Thesis "Denoising Diffusion for Mesh Correspondence". Previously, I worked on a NeRF-based 3D reconstruction of a hand at ETH Zurich.
+I am a MSc Computer Science student at the University of Bonn, Germany. Currently, I am working on a Master Thesis "Denoising Diffusion for Mesh Correspondence". Previously, I worked on a NeRF-based 3D reconstruction of a hand at ETH Zurich.
 
 {style="text-align: justify;"}
 
