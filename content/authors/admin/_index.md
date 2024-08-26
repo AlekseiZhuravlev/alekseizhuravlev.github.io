@@ -10,18 +10,18 @@ last_name: Zhuravlev
 superuser: true
 
 # Role/position/tagline
-role: MSc Computer Science Student
+# role: MSc Computer Science Student
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: University of Bonn
-    url: https://www.uni-bonn.de/en
+# organizations:
+#   - name: University of Bonn
+#     url: https://www.uni-bonn.de/en
 
 # Interests to show in About widget
-interests:
-  - Virtual Humans
-  - Denoising Diffusion Models
-  - Neural Radiance Fields
+# interests:
+#   - Virtual Humans
+#   - Denoising Diffusion Models
+#   - Neural Radiance Fields
 
 # Education to show in About widget
 education:
@@ -30,7 +30,7 @@ education:
       institution: University of Bonn, Germany
       year: 2024
     - course: BSc in Physics
-      institution: Lomonosov Moscow State University, Russia
+      institution: Moscow State University, Russia
       year: 06/2022
 
 # Social/Academic Networking
@@ -41,9 +41,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: mailto:s94zalek@uni-bonn.de
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.com/citations?user=0yDzRT0AAAAJ&hl=en
+  # - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  #   icon_pack: fas
+  #   link: https://scholar.google.com/citations?user=0yDzRT0AAAAJ&hl=en
   # - icon: github
   #   icon_pack: fab
   #   link: https://github.com/AlekseiZhuravlev
@@ -58,7 +58,7 @@ social:
 highlight_name: true
 ---
 
-I am a MSc Computer Science student at the [University of Bonn](https://www.uni-bonn.de/en), Germany. I am interested in Virtual Humans, Denoising Diffusion Models, and Neural Radiance Fields.
+I am a MSc Computer Science student at the University of Bonn, Germany. I am interested in Virtual Humans, Denoising Diffusion Models, and Neural Radiance Fields.
 
 Currently, I am working on a Master Thesis "Denoising Diffusion for Mesh Correspondence". Previously, I worked on a NeRF-based 3D reconstruction of a hand at ETH Zurich.
 
