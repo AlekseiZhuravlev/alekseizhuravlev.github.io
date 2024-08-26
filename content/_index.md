@@ -31,10 +31,10 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
 
-        - title: Master Thesis
-          company: Denoising Diffusion for Mesh Correspondence
+        - title: Denoising Diffusion for Mesh Correspondence
+          company: Master Thesis
           company_url: ''
-          location: ''
+          location: University of Bonn
           date_start: '2024-04-01'
           date_end: ''
           description: |2-
@@ -43,31 +43,38 @@ sections:
               - Trained a Denoising Diffusion Model (DDPM) to find correspondence between 100 scans of humans from the FAUST dataset <br>
               - Improved the Mean Geodesic Error by 3.2% compared to the baseline mesh convolutional model <br>
 
-        - title: Research Assistant
-          company: ETH Zurich
+        - title: Implicit Hand Reconstruction
+          company: Internship
           company_url: ''
-          location: remote
-          date_start: '2023-04-01'
-          date_end: ''
+          location: ETH Zurich
+          date_start: '2023-05-01'
+          date_end: '2023-12-01'
           description: |2-
               Supervised by Dr. Danda Pani Paudel<br>
 
-              - Developed a NeRF-based 3D reconstruction of the human hand from 60 images; evaluated on ∼500 sequences from the Interhand3.6m dataset <br>
-              - Implemented a point-mesh distance finding algorithm on the GPU; reduced the calculation time from 5s to 0.3s compared to the CPU baseline <br> 
-              - Introduced perceptual loss (LPIPS) to enhance the visual quality; improved PSNR score by 14% over MSE loss <br>
+              - Developed a NeRF-based reconstruction of the human hand from 60 images, using the Interhand3.6m dataset <br>
+              -	Implemented a point-mesh distance finding algorithm using Octrees; reduced the calculation time from 5s to 0.3s compared to the baseline <br>
 
-        - title: Research Assistant
-          company: Moscow State University
+        - title: Human Pose Forecasting
+          company: Semester Project
           company_url: ''
-          location: Moscow, Russia
+          location: University of Bonn
+          date_start: '2023-04-01'
+          date_end: '2023-09-01'
+          description: |2-
+              - Developed a human pose prediction model based on temporal convolution, trained on the Human2.6m dataset <br>
+              -	Reduced the Mean Per Joint Position Error (MPJPE) by 2.9% over the baseline transformer model <br>
+
+        - title: Segmentation of satellite images 
+          company: Research Assistant
+          company_url: ''
+          location: Moscow State University
           date_start: '2019-11-01'
           date_end: '2022-02-01'
           description:  |2-
-              Supervised by [Prof. Sergei Popov](https://scholar.google.com/citations?user=6wyyiLkAAAAJ&hl=en), [Prof. Roberto Turolla](https://www.unipd.it/en/contatti/rubrica/?ruolo=1&checkout=cerca&persona=TUROLLA&key=A1136CDCCF2710E5179BC83D6E291FBA)<br>
-              
-              - Developed a dark matter detection model using satellite images of neutron stars; processed 3.1 TB of data collected over 4 years <br>
-              - Utilized Very Deep Super-Resolution (VDSR) network to upscale low-resolution satellite images; improved SSIM metric by 11% over the baseline bicubic interpolation <br>
+              - Utilized the Very Deep Super-Resolution (VDSR) network to upscale the low-resolution satellite images of neutron stars <br>
               - Implemented a background subtraction model based on the R-CNN network; achieved a 3x speedup compared to the GrabCut algorithm <br>
+
     design:
       columns: '2'
 
@@ -143,7 +150,7 @@ sections:
           certificate_url: ''
           date_end: '2022-02-01'
           date_start: '2021-01-01'
-          description: • Instructed groups of 20 undergraduates in the “Programming and Computer Science” course; average grades 4.7 out of 5.0
+          description: • Instructed a group of 20 students in the course “Algorithms and Complexity”
         - title: Scholarship for outstanding students, Moscow State University
           organization: ''
           date_start: '2020-09-21'
@@ -151,7 +158,7 @@ sections:
           description: '• Awarded to top 5% of all students'
         - title: Moscow Informatics Olympiad
           organization: ''
-          description: '• 3rd place out of 70+ teams'
+          description: '• 3rd place out of 70 teams'
           date_end: ''
           date_start: '2020-05-01'
     design:

@@ -19,9 +19,9 @@ organizations:
 
 # Interests to show in About widget
 interests:
-  - Modeling of the Human Body and Hands
+  - Virtual Humans
   - Denoising Diffusion Models
-  - Neural Radiance Fields and Neural Rendering
+  - Neural Radiance Fields
 
 # Education to show in About widget
 education:
@@ -44,9 +44,9 @@ social:
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=0yDzRT0AAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/AlekseiZhuravlev
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/AlekseiZhuravlev
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -60,7 +60,7 @@ highlight_name: true
 
 I am a MSc Computer Science student at the [University of Bonn](https://www.uni-bonn.de/en), Germany. I am interested in Virtual Humans, Denoising Diffusion Models, and Neural Radiance Fields.
 
-Currently, I am working on a Master Thesis "Denoising Diffusion for Mesh Correspondence", supervised by Prof. Zorah Lähner and Prof. Vlad Golyanik. Previously, I worked on a NeRF-based 3D reconstruction of a hand at ETH Zurich, supervised by Dr. Danda Pani Paudel.
+Currently, I am working on a Master Thesis "Denoising Diffusion for Mesh Correspondence". Previously, I worked on a NeRF-based 3D reconstruction of a hand at ETH Zurich.
 
 {style="text-align: justify;"}
 

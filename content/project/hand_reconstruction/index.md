@@ -1,7 +1,7 @@
 ---
 title: Implicit Hand Reconstruction
 # type: project
-summary: • Developed a NeRF-based 3D reconstruction of a human hand from monocular and multi-view sequences, based on Interhand2.6m dataset
+summary: • A NeRF-based 3D reconstruction of a human hand from monocular and multi-view sequences, based on Interhand2.6m dataset
 date: '2023-12-31T00:00:00Z'
 
 links:
