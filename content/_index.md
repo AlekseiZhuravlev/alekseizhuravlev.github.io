@@ -62,10 +62,7 @@ sections:
           date_start: '2024-04-01'
           date_end: ''
           description: |2-
-              Supervisors: Prof. Zorah Lähner, Prof. Vlad Golyanik <br>
-
-              - Trained a Denoising Diffusion Model (DDPM) to find correspondence between 100 scans of humans from the FAUST dataset <br>
-              - Improved the Mean Geodesic Error by 3.2% compared to the baseline mesh convolutional model <br>
+              - Trained a Denoising Diffusion Model (DDPM) to find correspondence between 100 scans of humans from the FAUST dataset
 
         - title: Implicit Hand Reconstruction
           company: Internship
@@ -74,10 +71,7 @@ sections:
           date_start: '2023-05-01'
           date_end: '2023-12-01'
           description: |2-
-              Supervisor: Prof. Danda Pani Paudel<br>
-
-              - Developed a NeRF-based reconstruction of the human hand from 60 images, using the Interhand3.6m dataset <br>
-              -	Implemented a point-mesh distance finding algorithm using Octrees; reduced the calculation time from 5s to 0.3s compared to the baseline <br>
+              - Developed a NeRF-based reconstruction of the human hand from 60 images, using the Interhand3.6m dataset
 
         - title: Human Pose Forecasting
           company: Semester Project
@@ -87,7 +81,6 @@ sections:
           date_end: '2023-09-01'
           description: |2-
               - Developed a human pose prediction model based on temporal convolution, trained on the Human2.6m dataset <br>
-              -	Reduced the Mean Per Joint Position Error (MPJPE) by 2.9% over the baseline transformer model <br>
 
         - title: Segmentation of satellite images 
           company: Research Assistant
@@ -96,8 +89,7 @@ sections:
           date_start: '2019-11-01'
           date_end: '2022-02-01'
           description:  |2-
-              - Utilized the Very Deep Super-Resolution (VDSR) network to upscale the low-resolution satellite images of neutron stars <br>
-              - Implemented a background subtraction model based on the R-CNN network; achieved a 3x speedup compared to the GrabCut algorithm <br>
+              - Utilized the Very Deep Super-Resolution (VDSR) network to upscale the low-resolution satellite images of neutron stars
 
     design:
       columns: '2'
