@@ -19,7 +19,7 @@ superuser: true
 
 # Interests to show in About widget
 interests:
-  - Modeling of the Human Body
+  - Human Body Modeling
   - Denoising Diffusion Models
   - Neural Radiance Fields
 
