@@ -30,6 +30,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+
+        - title: Master Thesis
+          company: Denoising Diffusion for Mesh Correspondence
+          company_url: ''
+          location: ''
+          date_start: '2024-04-01'
+          date_end: ''
+          description: |2-
+              Supervisors: Prof. Zorah Lähner, Prof. Vlad Golyanik <br>
+
+              - Trained a Denoising Diffusion Model (DDPM) to find correspondence between 100 scans of humans from the FAUST dataset <br>
+              - Improved the Mean Geodesic Error by 3.2% compared to the baseline mesh convolutional model <br>
+
         - title: Research Assistant
           company: ETH Zurich
           company_url: ''
@@ -37,7 +50,7 @@ sections:
           date_start: '2023-04-01'
           date_end: ''
           description: |2-
-              Supervised by [Dr. Danda Pani Paudel](https://people.ee.ethz.ch/~paudeld/), [Dr. Thomas Probst](https://probstt.bitbucket.io/)<br>
+              Supervised by Dr. Danda Pani Paudel<br>
 
               - Developed a NeRF-based 3D reconstruction of the human hand from 60 images; evaluated on ∼500 sequences from the Interhand3.6m dataset <br>
               - Implemented a point-mesh distance finding algorithm on the GPU; reduced the calculation time from 5s to 0.3s compared to the CPU baseline <br> 
@@ -125,13 +138,6 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        # - title: Teaching assistant, University of Bonn 
-        #   organization: ''
-        #   certificate_url: ''
-        #   date_start: '2023-04-01'
-        #   date_end: '2023-09-01'
-        #   description: '• Co-developed programming assignments for the “Computer Vision” course, attended by 30+ MSc students'
-        #   url: ''
         - title: Teaching assistant, Moscow State University 
           organization: ''
           certificate_url: ''
