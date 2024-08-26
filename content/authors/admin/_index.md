@@ -58,7 +58,7 @@ social:
 highlight_name: true
 ---
 
-I am a MSc Computer Science student at the University of Bonn, Germany. I am interested in Virtual Humans, Denoising Diffusion Models, and Neural Radiance Fields.
+I am a MSc Computer Science student at the University of Bonn, Germany. I am interested in <u>Virtual Humans</u>, <u>Denoising Diffusion Models</u>, and <u>Neural Radiance Fields</u>.
 
 Currently, I am working on a Master Thesis "Denoising Diffusion for Mesh Correspondence". Previously, I worked on a NeRF-based 3D reconstruction of a hand at ETH Zurich.
 

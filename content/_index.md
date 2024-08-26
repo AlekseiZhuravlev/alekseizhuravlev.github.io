@@ -90,6 +90,7 @@ sections:
           date_end: '2022-02-01'
           description:  |2-
               - Utilized the Very Deep Super-Resolution (VDSR) network to upscale the low-resolution satellite images of neutron stars
+              - Implemented a background subtraction model based on the R-CNN network; achieved a 3x speedup compared to the GrabCut algorithm
 
     design:
       columns: '2'
