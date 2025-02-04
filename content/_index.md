@@ -127,40 +127,40 @@ sections:
   #     # For Showcase view, flip alternate rows?
   #     flip_alt_rows: false #any columns the section has. Valid values: '1' or '2'
 
-  - block: accomplishments
-    id: accomplishments
-    content:
-      title: Additional Experience
-      subtitle: ''
-      text: ''
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `items` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Teaching assistant, Moscow State University 
-          organization: ''
-          certificate_url: ''
-          date_end: '2022-02-01'
-          date_start: '2021-01-01'
-          description: • Instructed a group of 20 students in the course “Algorithms and Complexity”
-        - title: Scholarship for outstanding students, Moscow State University
-          organization: ''
-          date_start: '2020-09-21'
-          date_end: '2022-05-01'
-          description: '• Awarded to top 5% of all students'
-        - title: Moscow Informatics Olympiad
-          organization: ''
-          description: '• 3rd place out of 70 teams'
-          date_end: ''
-          date_start: '2020-05-01'
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
-      view: card
+  # - block: accomplishments
+  #   id: accomplishments
+  #   content:
+  #     title: Additional Experience
+  #     subtitle: ''
+  #     text: ''
+  #     # Date format: https://wowchemy.com/docs/customization/#date-format
+  #     date_format: Jan 2006
+  #     # Accomplishments.
+  #     #   Add/remove as many `items` blocks below as you like.
+  #     #   `title`, `organization`, and `date_start` are the required parameters.
+  #     #   Leave other parameters empty if not required.
+  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+  #     items:
+  #       - title: Teaching assistant, Moscow State University 
+  #         organization: ''
+  #         certificate_url: ''
+  #         date_end: '2022-02-01'
+  #         date_start: '2021-01-01'
+  #         description: • Instructed a group of 20 students in the course “Algorithms and Complexity”
+  #       - title: Scholarship for outstanding students, Moscow State University
+  #         organization: ''
+  #         date_start: '2020-09-21'
+  #         date_end: '2022-05-01'
+  #         description: '• Awarded to top 5% of all students'
+  #       - title: Moscow Informatics Olympiad
+  #         organization: ''
+  #         description: '• 3rd place out of 70 teams'
+  #         date_end: ''
+  #         date_start: '2020-05-01'
+  #   design:
+  #     # Choose how many columns the section has. Valid values: '1' or '2'.
+  #     columns: '2'
+  #     view: card
 
 
   # - block: collection
